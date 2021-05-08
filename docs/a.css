@@ -1,0 +1,12 @@
+html   
+{   
+    background: #d0cec9;   
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#dedcd9', endColorstr='#f7f7f6');   
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0, #dedcd9),      
+    color-stop(0.1, #f7f7f6), color-stop(1.0, #f7f7f6));   
+    background: -moz-linear-gradient(top, #dedcd9 0px, #f7f7f6 400px, #f7f7f6 100%);   
+}   
+body   
+{   
+    background: url(../images/noise.png);   
+}
