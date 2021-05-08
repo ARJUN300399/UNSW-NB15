@@ -1,37 +1,46 @@
-## Welcome to GitHub Pages
-
-You can use the [editor on GitHub](https://github.com/ARJUN300399/UNSW-NB15/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
-
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/ARJUN300399/UNSW-NB15/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+The UNSW-NB 15 data set was created by utilising an IXIA
+PerfectStorm tool to extract a hybrid of modern normal and
+contemporary attack activities of network traffic. A tcpdump
+tool was used to capture 100 GB of raw network traffic (pcap
+files). Each pcap file contains 1000 MB in order to make
+analysis of packets easier. Argus and Bro-IDS techniques and
+twelve procedures were executed in a parallel implementation
+to generate 49 features with the class label. This data set
+contains 2, 540,044 records which are stored in four CSV
+files. Moreover, a part from this data set was divided into a
+training set and a testing set. The training set involved 175,341
+records, while the testing set contained 82,332 records from
+all involved attack types and normal records [11], [12].
+The involved attacks of the UNSW-NB15 data set were
+categorised into nine types as in the following points:
+1) Fuzzers: is an attack in which the attacker attempts to
+discover security loopholes in an application, operating
+system or a network by feeding it with the massive
+inputting of random data to make it crash.
+2) Analysis: is a type of variety intrusions that penetrate
+the web applications via ports (e.g. port scans), emails
+(e.g. spam) and web scripts (e.g. HTML files).
+3) Backdoor: is a technique of bypassing a stealthy normal
+authentication, securing unauthorised remote access to a
+device, locating the entrance to plain text, as it struggles
+to continue unobserved.
+4) DoS: is an intrusion which disrupts the computer resources via memory so as to cause excessive business,
+in order to prevent authorised requests from accessing a
+device.
+5) Exploit: is a sequence of instructions that takes advantage of a glitch, bug or vulnerability, causing an
+unintentional or unsuspected behavior on a host or a
+network.
+6) Generic: is a technique that establishes against every
+block-cipher using a hash function to cause a collision
+without respect to the configuration of the block-cipher.
+7) Reconnaissance: also can be defined as a probe, and it
+is an attack which gathers information about a computer
+network to evade its security controls.
+8) Shellcode: is malware in which the attacker penetrates
+a slight piece of code starting from a shell to control the
+compromised machine.
+9) Worm:is an attack in which the attacker replicates
+itself to spread on other computers. Often, it utilises
+a computer network to spread itself, depending on the
+security failures of the target computer used to access
+it
