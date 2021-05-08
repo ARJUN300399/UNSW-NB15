@@ -10,7 +10,7 @@ contains 2, 540,044 records which are stored in four CSV
 files. Moreover, a part from this data set was divided into a
 training set and a testing set. The training set involved 175,341
 records, while the testing set contained 82,332 records from
-all involved attack types and normal records [11], [12].
+all involved attack types and normal records.
 The involved attacks of the UNSW-NB15 data set were
 categorised into nine types as in the following points:
 1) Fuzzers: is an attack in which the attacker attempts to
